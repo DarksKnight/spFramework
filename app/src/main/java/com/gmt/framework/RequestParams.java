@@ -56,4 +56,8 @@ public class RequestParams {
         }
         return null;
     }
+
+    public void clearAll(){
+        map.clear();
+    }
 }

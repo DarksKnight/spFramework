@@ -48,6 +48,8 @@ public class LoginActivity extends ActionBarActivity {
 //            public void getOneData(Object obj) {
 //                Log.i("TEST", ((LoginEntity) obj).getInfo().getUserID());
 //                StaticField.USER = ((LoginEntity) obj).getInfo();
+//                //必须清空
+//                innerParams.clearAll();
 //                innerParams.put("projectId", "1");
 //                innerParams.put("userId", StaticField.USER.getUserID());
 //            }
